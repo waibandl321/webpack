@@ -1,0 +1,39 @@
+.test {
+  background: url("https://cdn.pixabay.com/photo/2014/09/07/21/52/urban-438393__340.jpg");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.test h1 {
+  color: #666;
+}
+@media (max-width: 1079px) {
+  .test {
+    background: #999;
+  }
+  .test h1 {
+    color: blue;
+  }
+}
+@media (max-width: 767px) {
+  .test {
+    background: #111;
+  }
+  .test h1 {
+    background: #fff;
+  }
+}
+
+/*# sourceMappingURL=style.css.map*/

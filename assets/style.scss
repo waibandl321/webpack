@@ -1,0 +1,24 @@
+.test {
+    background: url("https://cdn.pixabay.com/photo/2014/09/07/21/52/urban-438393__340.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    @media (max-width: 1079px) {
+        background: #999;
+      }
+    
+      @media (max-width: 767px) {
+        background: #111;
+      }
+    h1 {
+        color: #666;
+        @media (max-width: 1079px) {
+            color: blue;
+          }
+        
+          @media (max-width: 767px) {
+            background: #fff;
+          }
+    }
+}
